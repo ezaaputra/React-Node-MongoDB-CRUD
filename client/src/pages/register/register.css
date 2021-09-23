@@ -1,0 +1,50 @@
+.register{
+  height: calc(100vh - 50px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.5)), url("https://cool.unc.edu/wp-content/uploads/2016/08/iStock_88579431_LARGE-cropped.jpg");
+  background-size: cover;
+}
+
+.registerTitle{
+  font-size: 50px;
+}
+
+.registerForm{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.registerForm > label{
+  margin: 10px 0;
+}
+
+.registerInput{
+  padding: 10px;
+  border: none;
+  background-color: white;
+}
+
+.registerButton{
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: teal;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.registerLoginButton{
+  position: absolute;
+  top: 60px;
+  right: 20px;
+  background-color: lightcoral;
+  border: none;
+  padding: 10px;
+  color: white;
+  border-radius: 10px;
+}
