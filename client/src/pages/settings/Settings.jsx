@@ -13,7 +13,7 @@ export default function Settings() {
   const axiosInstance = axios.create({baseURL:process.env.REACT_APP_API_URL})
 
   const { user, dispatch } = useContext(Context)
-  const PF = process.env.REACT_APP_IMAGE
+  const PF = "http://localhost:5000/images/"
 
   const handleSubmit = async (e) => {
     e.preventDefault()

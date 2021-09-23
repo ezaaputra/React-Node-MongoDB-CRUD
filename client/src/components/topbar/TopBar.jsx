@@ -8,7 +8,7 @@ export default function TopBar() {
   const handleLogout = () => {
     dispatch({ type: "LOGOUT" })
   }
-  const PF = process.env.REACT_APP_IMAGE
+  const PF = "http://localhost:5000/images/"
   return (
     <div className="top">
       <div className="topLeft">

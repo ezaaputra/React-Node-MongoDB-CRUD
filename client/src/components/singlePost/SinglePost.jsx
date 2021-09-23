@@ -5,7 +5,7 @@ import { Context } from '../../context/Context'
 import './singlePost.css'
 
 export default function SinglePost() {
-  const PF = process.env.REACT_APP_IMAGE
+  const PF = "http://localhost:5000/images/"
   const location = useLocation()
   const path = location.pathname.split("/")[2]
   const [post, setPost] = useState({})
